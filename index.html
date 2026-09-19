@@ -1,34 +1,657 @@
-<section id="dashboard" class="section">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="section-heading">
+    <title>JCI Pulsar | Wellbeing & Leadership</title>
 
-        <div>
-            <span class="section-label">
-                POWER BI ANALYTICS
-            </span>
+    <meta
+        name="description"
+        content="JCI Pulsar is a digital platform for member wellbeing, leadership development and organizational insights."
+    >
 
-            <h3>
-                JCI Organizational Dashboard
-            </h3>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            <p>
-                Data-driven insights into member wellbeing,
-                engagement and leadership development.
-            </p>
+<body>
+
+    <!-- =========================
+         SIDEBAR
+    ========================== -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon">✦</div>
+
+            <div>
+                <h1>PULSAR</h1>
+                <span>JCI Wellbeing</span>
+            </div>
         </div>
 
-    </div>
 
-    <div class="powerbi-container">
+        <nav class="navigation">
 
-        <!-- Power BI Embedded Report -->
-        <iframe
-            title="JCI Pulsar Power BI Dashboard"
-            src="YOUR_POWER_BI_EMBED_URL"
-            frameborder="0"
-            allowFullScreen="true">
-        </iframe>
+            <a href="#overview" class="nav-item active">
+                <span>⌂</span>
+                <span>Overview</span>
+            </a>
 
-    </div>
+            <a href="#wellbeing" class="nav-item">
+                <span>♡</span>
+                <span>Wellbeing</span>
+            </a>
 
-</section>
+            <a href="#leadership" class="nav-item">
+                <span>◇</span>
+                <span>Leadership</span>
+            </a>
+
+            <a href="#insights" class="nav-item">
+                <span>◈</span>
+                <span>Insights</span>
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-footer">
+
+            <div class="privacy-badge">
+                <span>🔒</span>
+
+                <div>
+                    <strong>Privacy First</strong>
+                    <small>Data protected</small>
+                </div>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main class="main-content">
+
+
+        <!-- HEADER -->
+
+        <header class="topbar">
+
+            <div>
+                <p class="eyebrow">JCI DISTRICT</p>
+                <h2>Member Wellbeing Pulse</h2>
+            </div>
+
+
+            <div class="header-actions">
+
+                <button class="notification-button">
+                    ♢
+                </button>
+
+                <div class="profile">
+
+                    <div class="profile-avatar">
+                        JD
+                    </div>
+
+                    <div class="profile-info">
+                        <strong>JCI Member</strong>
+                        <span>Member Dashboard</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- =========================
+             OVERVIEW
+        ========================== -->
+
+        <section id="overview" class="section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">OVERVIEW</span>
+
+                    <h3>
+                        Your organization's pulse
+                    </h3>
+
+                    <p>
+                        A real-time snapshot of member wellbeing,
+                        engagement and leadership development.
+                    </p>
+                </div>
+
+                <button class="primary-button" onclick="startCheckIn()">
+                    + Start Check-in
+                </button>
+
+            </div>
+
+  <!-- POWER BI DASHBOARD -->
+
+            <div class="dashboard-card powerbi-card">
+
+                <div class="card-header">
+
+                    <div>
+                        <span class="section-label">
+                            POWER BI ANALYTICS
+                        </span>
+
+                        <h4>
+                            JCI Organizational Dashboard
+                        </h4>
+                    </div>
+
+                    <span class="period">
+                        Live Data
+                    </span>
+
+                </div>
+
+<!-- power BI container-->
+                <div class="powerbi-container">
+
+                    <!-- Power BI report will be embedded here -->
+
+                    <div class="powerbi-placeholder">
+
+                        <div class="powerbi-icon">
+                            ◈
+                        </div>
+
+                        <h4>
+                            Power BI Dashboard
+                        </h4>
+
+                        <p>
+                            Organizational wellbeing,
+                            engagement and leadership insights
+                            will appear here.
+                        </p>
+
+                        <span>
+                            Connected to JCI Pulsar data
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+        <!-- =========================
+             WELLBEING
+        ========================== -->
+
+        <section id="wellbeing" class="section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">
+                        WELLBEING
+                    </span>
+
+                    <h3>
+                        How are our members doing?
+                    </h3>
+
+                    <p>
+                        Understand the main dimensions of
+                        member wellbeing.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="wellbeing-grid">
+
+
+                <div class="dimension-card">
+
+                    <div class="dimension-icon">
+                        ☀
+                    </div>
+
+                    <div>
+                        <span>Emotional wellbeing</span>
+                        <strong>82%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:82%"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="dimension-card">
+
+                    <div class="dimension-icon">
+                        ⚡
+                    </div>
+
+                    <div>
+                        <span>Energy</span>
+                        <strong>75%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:75%"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="dimension-card">
+
+                    <div class="dimension-icon">
+                        ♡
+                    </div>
+
+                    <div>
+                        <span>Sense of belonging</span>
+                        <strong>69%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:69%"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="dimension-card">
+
+                    <div class="dimension-icon">
+                        ◌
+                    </div>
+
+                    <div>
+                        <span>Stress management</span>
+                        <strong>71%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:71%"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             LEADERSHIP
+        ========================== -->
+
+        <section id="leadership" class="section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">
+                        LEADERSHIP
+                    </span>
+
+                    <h3>
+                        Leadership development
+                    </h3>
+
+                    <p>
+                        Track the capabilities that help JCI
+                        members create positive impact.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="leadership-grid">
+
+
+                <div class="leadership-card">
+
+                    <span>Initiative</span>
+
+                    <strong>84%</strong>
+
+                    <div class="progress">
+                        <div style="width:84%"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="leadership-card">
+
+                    <span>Empathy</span>
+
+                    <strong>79%</strong>
+
+                    <div class="progress">
+                        <div style="width:79%"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="leadership-card">
+
+                    <span>Communication</span>
+
+                    <strong>82%</strong>
+
+                    <div class="progress">
+                        <div style="width:82%"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="leadership-card">
+
+                    <span>Problem solving</span>
+
+                    <strong>77%</strong>
+
+                    <div class="progress">
+                        <div style="width:77%"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="leadership-card">
+
+                    <span>Responsibility</span>
+
+                    <strong>86%</strong>
+
+                    <div class="progress">
+                        <div style="width:86%"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="leadership-card">
+
+                    <span>Self-awareness</span>
+
+                    <strong>74%</strong>
+
+                    <div class="progress">
+                        <div style="width:74%"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             INSIGHTS
+        ========================== -->
+
+        <section id="insights" class="section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">
+                        INSIGHTS
+                    </span>
+
+                    <h3>
+                        From data to action
+                    </h3>
+
+                    <p>
+                        Pulsar transforms member feedback into
+                        actionable organizational insights.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="actions-grid">
+
+
+                <article class="action-card">
+
+                    <span class="action-number">
+                        01
+                    </span>
+
+                    <h4>
+                        Build connection
+                    </h4>
+
+                    <p>
+                        Create opportunities for members to
+                        connect outside formal meetings.
+                    </p>
+
+                    <button>
+                        View initiative →
+                    </button>
+
+                </article>
+
+
+
+                <article class="action-card">
+
+                    <span class="action-number">
+                        02
+                    </span>
+
+                    <h4>
+                        Strengthen leadership
+                    </h4>
+
+                    <p>
+                        Develop practical leadership experiences
+                        based on identified needs.
+                    </p>
+
+                    <button>
+                        View initiative →
+                    </button>
+
+                </article>
+
+
+
+                <article class="action-card">
+
+                    <span class="action-number">
+                        03
+                    </span>
+
+                    <h4>
+                        Listen to members
+                    </h4>
+
+                    <p>
+                        Encourage continuous feedback and
+                        create spaces for meaningful dialogue.
+                    </p>
+
+                    <button>
+                        View initiative →
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHECK-IN MODAL
+        ========================== -->
+
+        <div id="checkinModal" class="modal">
+
+            <div class="modal-content">
+
+                <button
+                    class="close-modal"
+                    onclick="closeCheckIn()"
+                >
+                    ×
+                </button>
+
+                <span class="section-label">
+                    WELLBEING CHECK-IN
+                </span>
+
+                <h3>
+                    How are you feeling today?
+                </h3>
+
+                <p>
+                    Your answers help JCI understand the
+                    collective wellbeing of its members.
+                </p>
+
+
+                <div class="checkin-question">
+
+                    <label>
+                        How connected do you feel to JCI?
+                    </label>
+
+                    <input
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="70"
+                        id="connectionRange"
+                    >
+
+                    <div class="range-value">
+                        <span id="connectionValue">70</span>%
+                    </div>
+
+                </div>
+
+
+                <div class="checkin-question">
+
+                    <label>
+                        How is your energy today?
+                    </label>
+
+                    <input
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="75"
+                        id="energyRange"
+                    >
+
+                    <div class="range-value">
+                        <span id="energyValue">75</span>%
+                    </div>
+
+                </div>
+
+
+                <div class="checkin-question">
+
+                    <label>
+                        How positive is your current mood?
+                    </label>
+
+                    <input
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="80"
+                        id="moodRange"
+                    >
+
+                    <div class="range-value">
+                        <span id="moodValue">80</span>%
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="primary-button full-width"
+                    onclick="submitCheckIn()"
+                >
+                    Submit Check-in
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <div>
+                <strong>JCI Pulsar</strong>
+                <span>
+                    Turning member voices into meaningful action.
+                </span>
+            </div>
+
+            <span>
+                Demo Version • 2026
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
