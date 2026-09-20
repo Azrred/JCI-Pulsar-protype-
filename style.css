@@ -549,14 +549,15 @@ body {
    POWER BI
 ========================================================= */
 
+
 .powerbi-container {
-    min-height: 650px; /* más alto */
+    min-height: 700px; /* más alto */
     padding: 18px;
     background: #f8fafc;
 }
 
 .powerbi-placeholder {
-    min-height: 600px; /* más alto */
+    min-height: 650px; /* más alto */
     display: flex;
     align-items: center;
     justify-content: center;
