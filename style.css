@@ -550,29 +550,16 @@ body {
 ========================================================= */
 
 .powerbi-container {
-    min-height: 430px;
-
+    min-height: 650px; /* más alto */
     padding: 18px;
-
     background: #f8fafc;
 }
 
 .powerbi-placeholder {
-    min-height: 394px;
-
+    min-height: 600px; /* más alto */
     display: flex;
-    flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
-    text-align: center;
-
-    border: 1px dashed #cbd5df;
-
-    border-radius: 14px;
-
-    background: white;
 }
 
 .powerbi-icon {
