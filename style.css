@@ -572,6 +572,68 @@ body {
     border-radius: 14px;
 }
 
+.powerbi-placeholder {
+    min-height: 394px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border: 1px dashed #cbd5df;
+
+    border-radius: 14px;
+
+    background: white;
+}
+
+.powerbi-icon {
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 16px;
+
+    border-radius: 15px;
+
+    background: var(--accent-light);
+
+    color: var(--accent);
+
+    font-size: 25px;
+}
+
+.powerbi-placeholder h4 {
+    margin-bottom: 8px;
+
+    font-size: 17px;
+}
+
+.powerbi-placeholder p {
+    max-width: 420px;
+
+    color: var(--text-soft);
+
+    font-size: 12px;
+
+    line-height: 1.7;
+}
+
+.powerbi-placeholder > span {
+    margin-top: 15px;
+
+    color: var(--text-light);
+
+    font-size: 10px;
+}
+
+
 /* =========================================================
    WELLBEING
 ========================================================= */
