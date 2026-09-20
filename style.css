@@ -74,6 +74,15 @@ body {
     overflow-y: auto;
 }
 
+
+/* Logo */
+.brand {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 12px !important;
+}
+
 /* =========================================================
    BRAND
 ========================================================= */
